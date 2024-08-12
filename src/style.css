@@ -1,0 +1,123 @@
+* {
+ padding: 0 !important;
+ margin: 0 !important;
+}
+.logo {
+ width: 11rem;
+ margin-left: 2rem !important;
+}
+.modal-dialog {
+ left: 400px !important;
+ top: 200px !important;
+}
+.input {
+ width: 100%;
+}
+.login {
+ width: 20%;
+ margin: auto !important;
+}
+section.hero-section {
+ width: 100%;
+ background-image: linear-gradient(
+     to bottom,
+     rgba(255, 255, 255, 0.4) 0%,
+     rgba(255, 255, 255, 0.4) 100%
+   ),
+   url(/public/images/hero-section.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ padding-bottom: 50px !important;
+}
+.hero-heading {
+ width: 40vw !important;
+}
+.hero-heading h1 {
+ font-size: 4vw;
+ padding-top: 40% !important;
+}
+form {
+ background-color: rgb(238, 237, 237, 0.5);
+ padding: 30px 100px !important;
+ margin-top: 130px !important;
+ position: relative !important;
+}
+form input {
+ width: 40rem !important;
+ border: 1px solid #ccc !important;
+ border-radius: 4px;
+}
+section div div .card {
+ width: 18rem !important;
+}
+section.feature-section {
+ padding-left: 30px !important;
+}
+section.browse-profile-section {
+ background: #ead3b4;
+}
+section.browse-profile-section div.browse-row {
+ width: 80% !important;
+ margin: auto !important;
+}
+.happy-image {
+ border-radius: 50%;
+ border: 5px solid;
+ width: 250px;
+ box-shadow: 3px 2px 30px black;
+}
+.wed-image {
+ height: 120px;
+ width: 120px;
+}
+.servies-image {
+ height: 80px;
+ width: 80px;
+}
+.vertical {
+ height: 100vh;
+ width: 10px;
+ border-radius: 50px;
+}
+.circle {
+ width: 50px;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 30px;
+ background-color: orange;
+ position: absolute;
+}
+
+.one {
+ left: 48.5%;
+ z-index: 1;
+ bottom: -100px;
+}
+.stepOne {
+ left: 53%;
+ bottom: -90px;
+}
+.two {
+ left: 48.5%;
+ z-index: 1;
+ bottom: -240px;
+}
+.stepTwo {
+ bottom: -230px;
+ left: 12%;
+}
+.three {
+ left: 48.5%;
+ z-index: 1;
+ bottom: -390px;
+}
+.stepThree {
+ bottom: -375px;
+ left: 53%;
+}
+
+.footer {
+  background-color: black;
+}
